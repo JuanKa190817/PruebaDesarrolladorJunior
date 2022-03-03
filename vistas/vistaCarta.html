@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rick and Morty</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://i.pinimg.com/originals/65/bd/3a/65bd3ad160a58538e2a490e05de01bd8.jpg" type="image/png">
+    <link rel="stylesheet" href="../estilos/estilosIndex.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="header2">
+        <div class="wrapper">
+            <div class="logo">Rick and Morty</div>
+            <span class="date">
+                <div class="div-date">
+                  <script type="text/javascript">
+                  var  today = new Date();
+                  var m = today.getMonth() + 1;
+                  var mes = (m < 10) ? '0' + m : m; document.write('Fecha: '+today.getDate(),'/' +mes,'/'+today.getFullYear()); 
+                  </script>
+                </div> 
+                <div class="divider"></div>
+              </span>
+            <nav><a href="./index.html">Regresar</a></nav>
+        </div>
+    </header>
+
+    <section class="contenido wrapper">
+        <div class="container">
+            <div class="grid-item">
+                <div id="element"></div>
+                <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </div>
+        </div>
+    </section>
+    <script src="../js/datos.js"></script>
+    <script src="../js/likes.js"></script>
+</body>
+
+</html>
